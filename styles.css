@@ -136,16 +136,17 @@ header  .logo  {
         text-align: center;
         
     }
-    .wiuck-news {
+   .wiuck-news {
         background-color: #ffffff;
         border-radius: 50px;
         padding-top: 10%;
         max-width: 720px;
         max-height: px;
-        justify-content: space-between;
-        margin: 10%;
-        padding: 0;
-        
+        position: static;
+        align-items: center;
+         margin: 10%;
+         margin-left: 25%;
+         display: grid
     }
     .wiuck-news h2 {
 color: black;
